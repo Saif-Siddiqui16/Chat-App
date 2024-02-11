@@ -78,6 +78,7 @@ const Form = ({ type }) => {
                   type="text"
                   placeholder="Username"
                   className="input-field"
+                  autocomplete="off"
                 />
                 <PersonOutline sx={{ color: "#737373" }} />
               </div>
@@ -95,6 +96,7 @@ const Form = ({ type }) => {
                 type="email"
                 placeholder="Email"
                 className="input-field"
+                autocomplete="off"
               />
               <EmailOutlined sx={{ color: "#737373" }} />
             </div>
